@@ -1,0 +1,81 @@
+@media only screen and (max-width: 768px){
+    nav img{
+  height: 35px;
+  width: 35px;
+}
+.post-grid{
+   grid-template-columns: repeat(2,1fr);
+}
+.grid-gallery{
+   gap: 1.5rem;
+}
+.comment-section{
+   width: 330px;
+}
+
+
+button,.btn{
+  padding: .3rem .6rem;
+}
+html{
+  font-size: 76%;
+}
+.main-form{
+    min-height: 200px;
+}
+.grid-gallery{
+  grid-template-columns: repeat(3,1fr);
+}
+
+
+
+}
+@media only screen and (max-width: 620px){
+  .grid-gallery{
+      grid-template-columns: repeat(2,1fr);
+  }
+  .logo-flex h1{
+      font-size: 1rem;
+  }
+  .post-grid{
+  grid-template-columns: repeat(1,1fr);   
+}
+.comment-section{
+   width: 100%;
+   margin: auto;
+}
+
+}
+@media only screen and (max-width: 414px){
+  .grid-gallery{
+  grid-template-columns: repeat(1,1fr);
+}
+nav{
+  font-size: .7rem;
+}
+nav .btn{
+  font-size: .7rem;
+  margin-right: .5rem;
+
+}
+
+}
+@media only screen and (max-width: 360px){
+  nav{
+  flex-direction: column;
+  padding:.5rem;
+}
+.logo-flex{
+  margin: .5rem 0;
+}
+}
+@media only screen and (max-width: 320px){
+  .main-form{
+       width: 300px;
+  }
+  .comment-section{
+   width: 100%;
+   margin: auto;
+}
+
+}
