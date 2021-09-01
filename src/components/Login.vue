@@ -18,8 +18,8 @@ export default {
         const router = useRouter()
        
         const {error,login, isPending} = useLogin()
-        const email = ref('')
-        const password = ref('')
+        const email = ref('mohamed@gmail.com')
+        const password = ref('mynameismohamed')
         const handleSubmit = async()=>{
             await login(email.value,password.value)
             if(!error.value){
